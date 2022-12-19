@@ -1,0 +1,12 @@
+package com.example.demo.trySpring;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HelloController {
+	
+	@GetMappring("/hello")
+	public String Hello() {
+		return "hello";
+	}
+}
